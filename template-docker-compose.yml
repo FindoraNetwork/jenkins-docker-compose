@@ -22,7 +22,7 @@ services:
       - ENABLE_ETH_API_SERVICE=1
       - EVM_CHAIN_ID=1111
       - RUC_LOG_LEVEL=debug
-      - EVM_FIRST_BLOCK_HEIGHT=1
+      - EVM_FIRST_BLOCK_HEIGHT=0
 
     ports:
       - "8545:8545"
@@ -59,7 +59,7 @@ services:
       - ENABLE_ETH_API_SERVICE=1
       - EVM_CHAIN_ID=1111
       - RUC_LOG_LEVEL=ERROR
-      - EVM_FIRST_BLOCK_HEIGHT=1
+      - EVM_FIRST_BLOCK_HEIGHT=0
 
     volumes:
       - /home/ubuntu/localnet/node1:/root/.tendermint
@@ -88,7 +88,7 @@ services:
       - ENABLE_ETH_API_SERVICE=1
       - EVM_CHAIN_ID=1111
       - RUC_LOG_LEVEL=ERROR
-      - EVM_FIRST_BLOCK_HEIGHT=1
+      - EVM_FIRST_BLOCK_HEIGHT=0
 
     volumes:
       - /home/ubuntu/localnet/node2:/root/.tendermint
@@ -116,7 +116,7 @@ services:
       - ENABLE_ETH_API_SERVICE=1
       - EVM_CHAIN_ID=1111
       - RUC_LOG_LEVEL=ERROR
-      - EVM_FIRST_BLOCK_HEIGHT=1
+      - EVM_FIRST_BLOCK_HEIGHT=0
 
     volumes:
       - /home/ubuntu/localnet/node3:/root/.tendermint
@@ -144,7 +144,7 @@ services:
       - ENABLE_ETH_API_SERVICE=1
       - EVM_CHAIN_ID=1111
       - RUC_LOG_LEVEL=ERROR
-      - EVM_FIRST_BLOCK_HEIGHT=1
+      - EVM_FIRST_BLOCK_HEIGHT=0
 
     volumes:
       - /home/ubuntu/localnet/node4:/root/.tendermint
