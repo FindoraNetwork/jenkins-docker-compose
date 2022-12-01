@@ -2,7 +2,7 @@ version: '2.2'
 services:
   node0:
     container_name: node0
-    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>”
+    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>"
 
     command:
       [
@@ -68,7 +68,7 @@ services:
 
   node2:
     container_name: node2
-    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>”
+    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>"
 
     command:
       [
@@ -96,7 +96,7 @@ services:
 
   node3:
     container_name: node3
-    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>”
+    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>"
 
     command:
       [
@@ -124,7 +124,7 @@ services:
 
   node4:
     container_name: node4
-    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>”
+    image: "public.ecr.aws/k6m5b6e2/dev/findorad:<image>"
 
     command:
       [
